@@ -11,6 +11,17 @@ describe("creates an employee object", () => {
 
 
 });
+describe('to get employee name', () => {
+    const employee = new Employee("Willie Smitts", "15", "williesmittslaps");
+
+    expect(employee.getName()).toEqual(expect.any(String));
+})
+describe('to get employee ID', () => {
+    const employee = new Employee("Willie Smitts", "15", "williesmittslaps");
+
+    expect(employee.getID()).toEqual(expect.any(Number));
+})
+
 
 describe('to get employee email', () => {
     const employee = new Employee("Willie Smitts", "15", "williesmittslaps");
