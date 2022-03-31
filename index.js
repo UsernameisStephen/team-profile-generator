@@ -14,12 +14,12 @@ const createManager = () => {
         {
             type: "input",
             name: "name",
-            message: "What is your name?",
-            validate: nameInput => {
-                if (nameInput) {
+            message: "What is your engineer?",
+            validate: engName => {
+                if (engName) {
                     return true;
                 } else {
-                    console.log("Please enter your name");
+                    console.log("Please enter the engineer.");
                     return false;
                 }
             }
