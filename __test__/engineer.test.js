@@ -1,22 +1,29 @@
-const Engineer = require('../lib/engineer');
+const Engineer = require("../lib/engineer");
 
 
-describe('creates an engineer object', () => {
-    const engineer = new Engineer("Willie Smitts", 15, "williesmittslaps");
-    
-    expect(engineer.github) .toEqual(expect.any(String));
+describe ("Engineer Class", () => {
+    describe("Init", () => {
+        it ("creates an engineer object", () => {
+            const engineer = new Engineer("Willie Smitts", 15, "williesmittslaps");
+            expect(engineer.github) .toEqual(expect.any(String));
+        });    
+    });
 });
 
 
-describe("to get engineer github", () => {
-    const engineer = new Engineer("Willie Smitts", 15, "williesmittslaps");
+describe("getGithub", () => {
+    it ("to get engineer github", () => {
+        const engineer = new Engineer("Willie Smitts", 15, "williesmittslaps");
 
-    expect(engineer.getGithub()).toEqual(expect.stringContaining(engineer.github.toString()));
+        expect(engineer.getGithub()).toEqual(expect.stringContaining(engineer.github.toString()));
+    });
 });
 
 
-describe("to get role of engineer", () => {
-    const engineer = new Engineer("Willie Smitts", 15, "williesmittslaps");
+describe("getRole", () => {
+    it ("to get role of engineer", () => {
+        const engineer = new Engineer("Willie Smitts", 15, "williesmittslaps");
 
-    expect(engineer.getRole()).toEqual("Engineer");
+         expect(engineer.getRole()).toEqual("Engineer");
+    });    
 });

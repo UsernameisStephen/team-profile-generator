@@ -1,36 +1,48 @@
 const Employee = require("../lib/employee")
 
-describe("creates an employee object", () => {
-    const employee = new Employee("Willie Smitts", "15", "williesmittslaps");
+describe("Employee Class", () => {
+    describe("Int", () => {
+        it("creates an employee object", () => {
+            const employee = new Employee("Willie Smitts", "15", "williesmittslaps");
 
-    expect(employee.name).toEqual(expect.any(String));
+            expect(employee.name).toEqual(expect.any(String));
 
-    expect(employee.id).toEqual(expect.any(Number));
+            expect(employee.id).toEqual(expect.any(Number));
 
-    expect(employee.email).toEqual(expect.any(String));
-
+            expect(employee.email).toEqual(expect.any(String));
+        });    
+   });
 
 });
-describe('to get employee name', () => {
-    const employee = new Employee("Willie Smitts", "15", "williesmittslaps");
+describe("getName", () => {
+    it("to get employee name", () => {
+        const employee = new Employee("Willie Smitts", "15", "williesmittslaps");
 
-    expect(employee.getName()).toEqual(expect.any(String));
-})
-describe('to get employee ID', () => {
-    const employee = new Employee("Willie Smitts", "15", "williesmittslaps");
+        expect(employee.getName()).toEqual(expect.any(String));
+    });    
+});
+describe("getId", () => {
+    it("to get employee ID", () => {
 
-    expect(employee.getID()).toEqual(expect.any(Number));
-})
+        const employee = new Employee("Willie Smitts", "15", "williesmittslaps");
+
+        expect(employee.getID()).toEqual(expect.any(Number));
+    });
+});
 
 
-describe('to get employee email', () => {
-    const employee = new Employee("Willie Smitts", "15", "williesmittslaps");
+describe("getEmail", () => {
+    it ("to get employee email", () => {
+        const employee = new Employee("Willie Smitts", "15", "williesmittslaps");
 
-    expect(employee.getEmail()).toEqual(expect.stringContaining(employee.email.toString()));
-})
+        expect(employee.getEmail()).toEqual(expect.stringContaining(employee.email.toString()));
+    });   
+});
 
-describe('to get employee role', () => {
-    const employee = new employee("Willie Smitts", "15", "williesmittslaps");
+describe("getRole", () => {
+    it ("to get employee role", () => {
+         const employee = new employee("Willie Smitts", "15", "williesmittslaps");
 
-    expect(employee.getRole()).toEqual("employee");
-})
+        expect(employee.getRole()).toEqual("employee");
+    });    
+});

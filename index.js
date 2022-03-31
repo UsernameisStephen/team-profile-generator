@@ -217,8 +217,8 @@ const internQuestions = () => {
     ])
     .then(anwers => {
         console.log(answers);
-        const intern = new Engineer (anwers.name, anwers.id, anwers.email, anwers.school);
-        teamMembers.push(engineer);
+        const intern = new Intern (anwers.name, anwers.id, anwers.email, anwers.school);
+        teamMembers.push(intern);
         promptQuestions();
     })
 }
