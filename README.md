@@ -9,9 +9,7 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
-* [Contributions](#Contributions)
 * [Tests](#tests)
 * [Questions](#questions)
 
@@ -26,18 +24,17 @@
 Ensure the following packages are installed:
 Inquirer
 Jest
-```
+
 ## Usage
 
-* Run the application in your terminal by entering this command: 
-```
-node index.js
-```
-* You be prompted by a series of questions asking for your input:
+* The user will navigate to index.js file in terminal.
+* The user will type node index.js to initiate the team manager's prompt questions. The user will answer each question. Then, will be asked to add a team member.
+* You will be prompted by a series of questions asking for your input:
 
-<img width="428" alt="readmequestions" src="https://user-images.githubusercontent.com/100049940/160320077-c4b698df-47a8-4439-9936-07ea352cc858.png">
+<img width="592" alt="teamprofilegenerator" src="https://user-images.githubusercontent.com/100049940/161198201-4e468f92-388b-4064-a35b-88e69250b3ac.png">
 
-* After you have input something for all the prompts, it will create a README.md file in your repository.
+* Once the user has added all members and information needed, a new file will be created in the "dist" folder.
+* When the user opens the HTML file, it will display a nicely formatted team roster with contact information based on their input.
 
 
 ## License
@@ -51,8 +48,7 @@ This app is covered by a MIT license. For more information please checkout this 
 
 
 
-https://user-images.githubusercontent.com/100049940/160324752-f199fab0-5569-4897-8722-21082f6325e4.mp4
-
+<img width="592" alt="teamprofilegenerator" src="https://user-images.githubusercontent.com/100049940/161198515-9faf6efb-8737-489a-9539-549f4f997551.png">
 
 
 
