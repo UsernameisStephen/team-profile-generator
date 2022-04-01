@@ -48,7 +48,11 @@ This app is covered by a MIT license. For more information please checkout this 
 
 
 
-<img width="592" alt="teamprofilegenerator" src="https://user-images.githubusercontent.com/100049940/161198515-9faf6efb-8737-489a-9539-549f4f997551.png">
+
+
+https://user-images.githubusercontent.com/100049940/161198706-27c69d16-3677-40a6-8217-c2cd93a31bf0.mp4
+
+
 
 
 
