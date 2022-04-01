@@ -2,7 +2,7 @@ const Engineer = require("../lib/engineer");
 
 
 describe ("Engineer Class", () => {
-    describe("Init", () => {
+    describe("init", () => {
         it ("creates an engineer object", () => {
             const engineer = new Engineer("Willie Smitts", 15, "williesmittslaps");
             expect(engineer.github) .toEqual(expect.any(String));

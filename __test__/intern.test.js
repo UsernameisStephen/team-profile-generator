@@ -3,9 +3,9 @@ const Intern = require("../lib/intern");
 
 
 describe ("Intern Class", () => {
-    describe("Init", () => {
+    describe("init", () => {
         it ("creates an intern object", () => {
-            const intern = new Intern("Willie Smitts", 15, "williesmittslaps");
+            const intern = new Intern("Willie Smitts", 15, "williesmittslaps", "WSSU");
             expect(intern.school) .toEqual(expect.any(String));
         });    
     });
@@ -14,7 +14,7 @@ describe ("Intern Class", () => {
 
 describe("getschool", () => {
     it ("to get intern scool", () => {
-        const intern = new Intern("Willie Smitts", 15, "williesmittslaps");
+        const intern = new Intern("Willie Smitts", 15, "williesmittslaps", "WSSU");
         expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school.toString()));
     });
 });

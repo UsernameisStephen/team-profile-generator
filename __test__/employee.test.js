@@ -1,7 +1,7 @@
 const Employee = require("../lib/employee")
 
 describe("Employee Class", () => {
-    describe("Int", () => {
+    describe("int", () => {
         it("creates an employee object", () => {
             const employee = new Employee("Willie Smitts", "15", "williesmittslaps");
 
