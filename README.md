@@ -22,7 +22,9 @@
 * Type in terminal npm i or npm install to install dependency packages needed.
 
 Ensure the following packages are installed:
+
 Inquirer
+
 Jest
 
 ## Usage
