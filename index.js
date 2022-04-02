@@ -70,12 +70,12 @@ const engineerQuestions = () => {
         {
             type: "input",
             name: "email",
-            message: "What is the engineers email address?",
+            message: "What is the engineer's email address?",
         },
         {
             type: "input",
             name: "github",
-            message: "What is the engineers GitHub username?",
+            message: "What is the engineer's GitHub username?",
         },
         {
             type: "list",
@@ -105,27 +105,27 @@ const internQuestions = () => {
         {
             type: "input",
             name: "name",
-            message: "What is the interns name?"
+            message: "What is the intern's name?"
         },
         {
             type: "input",
             name: "id",
-            message: "What is the interns id?"
+            message: "What is the intern's id?"
         },
         {
             type: "input",
             name: "email",
-            message: "What is the interns email address?"
+            message: "What is the intern's email address?"
         },
         {
             type: "input",
             name: "school",
-            message: "What is the interns school?"
+            message: "What is the intern's school?"
         },
         {
             type: "list",
             name: "addMember",
-            message: "What type of team member would you like to add next?",
+            message: "Whatpe of team member would you like to add next?",
             choices: ["Engineer", "Intern", "I dont want to add any more team members"],
         }
     ])
